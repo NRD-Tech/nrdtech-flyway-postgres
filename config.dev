@@ -1,0 +1,4 @@
+export HOST=host.docker.internal
+export PORT=5432
+export USER=postgres
+export PASS=dev

@@ -1,0 +1,14 @@
+#########################################################
+# Global Configuration
+# Environment Variables that apply to all environments
+#########################################################
+
+export AWS_DEFAULT_REGION=us-east-2
+export AWS_REGION=$AWS_DEFAULT_REGION
+export AWS_ROLE_ARN=arn:aws:iam::1234567890:role/pipelines-cd-1234
+
+export PORT=5432
+export DB=mydb
+export SCHEMA=public
+export USER=dbadmin
+export PASS=${DATABASE_MASTER_PASSWORD} # This value comes from the github environment secrets

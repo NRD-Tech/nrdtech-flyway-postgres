@@ -1,0 +1,2 @@
+export HOST=shared-infra-staging-cluster-1.cluster-abc123.us-east-2.rds.amazonaws.com
+export SECURITY_GROUP=shared-infra-staging-aurora-sg

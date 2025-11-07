@@ -1,0 +1,2 @@
+export HOST=shared-infra-prod-instance-1.abc123.us-east-2.rds.amazonaws.com
+export SECURITY_GROUP=shared-infra-prod-aurora-sg
